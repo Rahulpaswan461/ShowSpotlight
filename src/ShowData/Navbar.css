@@ -1,0 +1,27 @@
+.navbar{
+     max-width: 1100px;
+     margin:0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     color: #fff;
+}
+.logo img{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      margin-top: 20px;
+      border: 1px solid #fff;
+}
+.list-item ul{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap:2.5rem;
+     list-style: none;
+     font-size: 1.3rem;
+     cursor: pointer;
+}
+.list-item ul li:hover{
+     color: red;
+}

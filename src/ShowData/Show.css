@@ -1,0 +1,12 @@
+.movie__list{
+      padding: 0 3rem 3rem 3rem;
+ 
+}
+h1{
+    color: #fff;
+}
+.list__cards{
+    display: fle;
+    flex-wrap: wrap;
+    justify-content: ceter;
+}
