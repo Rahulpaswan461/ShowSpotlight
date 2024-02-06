@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import {image} from './image/landing.jpg'
+
 
 function Form(){
     const {id}=useParams()
@@ -15,7 +15,7 @@ function Form(){
      return(
          <div className="movie__booking">
                <h3>{showData && showData.name && showData.name}</h3>
-                <img src={image} alt="rhu;" />
+                <img src="landing3.jpg" alt="rhu;" />
                  <div className="form__data">
                       <form action="">
                         <div>
