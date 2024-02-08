@@ -1,7 +1,6 @@
 import './App.css';
 import {Route,Routes} from 'react-router-dom'
 import Navbar from './ShowData/Navbar';
-import Show from './ShowData/Show';
 import MovieDetail from './ShowData/MovieDetail'
 import Form from './ShowData/Form';
 import Home from './ShowData/Home';
