@@ -35,8 +35,8 @@
 .right-section{
     width:70%;
 }
-.movie__title{
-      font-size: 2.5rem;
+.movie__title h3{
+      font-size: 3rem;
       color: #fff;
       font-weight: 500;
 }

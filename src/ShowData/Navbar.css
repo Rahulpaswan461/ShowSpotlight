@@ -3,9 +3,10 @@
      margin:0 auto;
      display: flex;
      align-items: center;
-     justify-content: space-around;
+     justify-content: space-between;
      color: #fff;
      gap:6.7rem;
+     margin-bottom: 1rem;
 }
 .logo img{
       height: 50px;
@@ -25,4 +26,34 @@
 }
 .list-item ul li:hover{
      color: red;
+}
+.search__input{
+       width: 340px;
+       height: 50px;
+       display: flex;
+       align-self: center;
+       justify-content: space-between;
+       background: #313131;
+       border-radius: 30px;
+}
+.search__input input{
+       background: transparent;
+       margin-left: 10px;
+       border: none;
+       outline: 0;
+       font-size: 1rem;
+       color: #fff;
+}
+.search__input button{
+       margin-right: 10px;
+       border-radius: 50%;
+       height: 50px;
+       width: 50px;
+       outline: 0;
+       border: none;
+       background: red;
+       cursor: pointer;
+}
+.search__input button i{
+      font-size: 1rem;
 }

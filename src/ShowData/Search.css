@@ -1,0 +1,8 @@
+.movie__list{
+     padding: 0 3rem 3rem 3rem;
+}
+.list__cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}

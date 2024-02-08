@@ -1,0 +1,65 @@
+.movie__booking{
+    width: 350px;
+    height: 500px;
+    background:linear-gradient(#181818,#000000);
+    margin:0 auto;
+    border-radius:10px ;
+}
+h3{
+     color: #fff;
+     text-align: center;
+     font-size: 1.5rem;
+     margin-top: 15px;
+     font-weight: 500;
+
+}
+.form__data{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 40px;
+     width: 100%;
+}
+.form__data  div{
+       width: 300px;
+       height: 50px;
+       background:#333333;       
+       margin-bottom: 1rem;
+       display: flex;
+       align-items: center;
+       justify-content: flex-start;
+       border-radius: 10px;
+       border: 1px solid gray;
+
+}
+.form__data input{
+    border: none;
+    outline: 0;
+    margin-left: 10px;
+    background: transparent;
+    font-size: 1rem;
+    color: #fff;
+}
+.submit__data{
+     width: 300px;
+     height: 50px;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.submit__data button{
+       color:#fff;
+       font-size: 1.2rem;
+       background: rgb(247, 6, 6);
+       width: 300px;
+       height: 50px;
+       border-radius: 10px;
+       border: none;
+       outline: 0;
+       cursor: pointer;
+       font-weight: 500;
+ }
+ .submit__data button:hover{
+      background: rgb(114, 2, 2);
+ }

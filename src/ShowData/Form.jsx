@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import './Form.css'
 
 
 function Form(){
@@ -12,10 +13,12 @@ function Form(){
         .then(res=>setShowData(res.data))
         .catch(error=>console.log("Something went wrong"))
     },[])
+    const clickhandler=()=>{
+         alert("The Data Receive successfully ! ")
+    }
      return(
          <div className="movie__booking">
                <h3>{showData && showData.name && showData.name}</h3>
-                <img src="landing3.jpg" alt="rhu;" />
                  <div className="form__data">
                       <form action="">
                         <div>
@@ -25,12 +28,14 @@ function Form(){
                             <input type='email' placeholder="Enter Your Email"/>
                         </div>
                         <div>
-                            <input type='number' placeholder="Enter Your Digits"/>
+                            <input type='phone' placeholder="Enter Your Digits"/>
                         </div>
                         <div>
                             <input type='text' placeholder="Enter Your Name"/>
                         </div>
-
+                        <div className="submit__data">
+                            <button onClick={clickhandler}>Submit</button>
+                        </div>
                       </form>
                  </div>
          </div>
